@@ -1,0 +1,310 @@
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: roboto;
+  cursor: url(./images/cursor.cur), default;
+}
+
+@font-face {
+  font-family: 'SCD5';
+  src: url('./font/SCDream5.otf') format('woff');
+}
+
+@font-face {
+  font-family: 'SCD4';
+  src: url('font/SCDream4.otf') format('woff');
+  letter-spacing: 6%;
+}
+
+@font-face {
+  font-family: 'SCD3';
+  src: url('font/SCDream3.otf') format('woff');
+}
+
+@font-face {
+  font-family: 'SCD6';
+  src: url('font/SCDream6.otf') format('woff');
+}
+
+@font-face {
+  font-family: 'Yoon5';
+  src: url('font/YoonV YoonGothic500Std_OTF 30.otf') format('woff');
+}
+
+
+
+/*header*/
+* {
+  margin: 0;
+  padding: 0;
+  cursor: url(./images/cursor.cur), default;
+
+}
+
+@font-face {
+  font-family: 'SCD5';
+  src: url('./font/SCDream5.otf') format('woff');
+}
+
+@font-face {
+  font-family: 'SCD4';
+  src: url('./font/SCDream4.otf') format('woff');
+  letter-spacing: 6%;
+}
+
+@font-face {
+  font-family: 'SCD3';
+  src: url('./font/SCDream3.otf') format('woff');
+  letter-spacing: 6%;
+}
+
+@font-face {
+  font-family: 'SCD6';
+  src: url('./font/SCDream6.otf') format('woff');
+}
+
+@font-face {
+  font-family: 'Yoon5';
+  src: url('./font/YoonV YoonGothic500Std_OTF 30.otf') format('woff');
+}
+
+@font-face {
+  font-family: 'Bodoni 72';
+  src: url('./font/Bodoni-72-Book-Italic.otf') format('woff');
+}
+
+
+
+body {
+  background-color: white;
+  color: #1C1B20;
+  cursor: url(./images/cursor.cur), default;
+}
+
+/* 헤더  */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.headA {
+
+  display: inline-block;
+  line-height: 70px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  font-size: 15px;
+  text-align: center;
+  color: black;
+  font-family: 'SCD4';
+
+}
+
+header .container {
+  height: 52px;
+  width: 100vw;
+}
+
+.headB {
+  padding-right: 5px;
+  font-family: 'SCD3';
+}
+
+.headB ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.headB a {
+  display: block;
+  padding: 15px;
+  color: inherit;
+  font-size: 12px;
+  text-decoration: none;
+
+  cursor: pointer;
+}
+
+.container-small button {
+  color: black;
+}
+
+@media (min-width: 768px) {
+
+  /* 헤더  */
+
+  header>.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 88vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .headB>ul {
+    display: flex;
+  }
+
+
+  .headC {
+    display: none;
+  }
+
+  .headB {
+    display: block !important;
+  }
+}
+
+
+  html,
+  body {
+    width: 100vw;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  #hero-image {
+    width: 100%;
+    height: 100%;
+    background-color: #f8f8f8;
+    text-align: center;
+    position: absolute;
+    background-size: cover;
+  }
+
+  #hero-image img {
+    height: 100vh;
+  }
+
+
+  section {
+    width: 100vw;
+    min-height: 100vh;
+    float: left;
+    position: relative;
+  }
+
+  /*좌) 설명부분*/
+  .sticky {
+    height: 100vh;
+    width: 30vw;
+    float: left;
+    position: relative;
+
+  }
+
+  .sticky.fixy {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  .sticky.bottom {
+    position: relative;
+    bottom: 0;
+  }
+
+  .info {
+    padding: 80px;
+  }
+
+  #s1 {
+    top: 100vh;
+  }
+
+  #s1 .info {
+    background-color: #f8f8f8;
+  }
+
+  #s2 .info {
+    background-color: #f8f8f8;
+  }
+
+  #s3 .info {
+    background-color: #f8f8f8;
+  }
+
+  #s4 .info {
+    background-color: #f8f8f8;
+  }
+
+  #s5 .info {
+    background-color: #f8f8f8;
+  }
+
+  .info h4 {
+    font-family: 'SCD5';
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 40px;
+  }
+
+  .info h1 {
+    font-family: 'SCD6';
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    margin-top: 0;
+  }
+
+  .info h2 {
+    color: rgb(0, 0, 0);
+    font-size: 26px;
+    margin-top: 230px;
+    margin-bottom: 5px;
+  }
+
+  .info h3 {
+    color: rgb(0, 0, 0);
+    font-size: 26px;
+    margin-top: 370px;
+    margin-bottom: 5px;
+  }
+
+  .info p {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    margin-top: 0;
+    line-height: 190%;
+    font-family: 'SCD4';
+  }
+
+
+  /*우) 이미지부분*/
+  .scrolling {
+    float: right;
+    width: 50vw;
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    margin-right: 150px;
+  }
+
+  .scrolling img {
+    width: 85%;
+    margin-top: 130px;
+    margin-bottom: 200px;
+  }
+
+
